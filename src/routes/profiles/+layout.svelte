@@ -3,14 +3,12 @@
 	import type { IMenu } from "$lib/types/core";
 
 	let menus: IMenu[] = [
-		{ name: "characters", url: "char" },
-		{ name: "series", url: "series" },
 		{ name: "favourites", url: "favourites" },
 	]
 </script>
 
 <div class="database">
-	<Navbar menus={menus} name={"database"} color={"purple"}/>
+	<Navbar menus={menus} name={"profiles"}/>
 	<div class="content">
   		<slot />
 	</div>
